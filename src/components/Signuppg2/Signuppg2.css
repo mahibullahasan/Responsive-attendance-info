@@ -1,0 +1,12 @@
+.back-btn{
+    position: absolute;
+    left: 100px;
+    top: 420px;
+    border: none;
+    color: #767676;
+    background-color: white;
+    font-family: 'inner';
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+}

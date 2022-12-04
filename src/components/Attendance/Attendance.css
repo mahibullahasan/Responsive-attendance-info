@@ -1,0 +1,20 @@
+.attend-logo{
+    position: absolute;
+    width: 164.21px;
+    height: 60;
+    left: 56px;
+    top: 49px;
+}
+.attend-info{
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    top: 122px;
+    left: 530px;
+    border: 1px solid red;
+    background-color: #1678CB;
+    color: white;
+    
+}

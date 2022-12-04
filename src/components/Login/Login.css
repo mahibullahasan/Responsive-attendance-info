@@ -1,0 +1,96 @@
+.img-logo{
+    position: absolute;
+    width: 164.21px;
+    height: 60px;
+    left: 56px;
+    top: 62px;
+    
+}
+.img-body{
+    position: absolute;
+    width: 612px;
+    height: 437px;
+    left: 128px;
+    top: 110px;
+
+}
+.login-section{
+    position: absolute;
+    width: 516px;
+    height: 590px;
+    left: 825px;
+    top: 19px;
+    box-shadow: 1px -10px 25px rgba(201, 201, 201, 0.25), -1px -10px 25px rgba(147, 147, 147, 0.25);
+}
+.login-title{
+    position: absolute;
+    width: 113px;
+    height: 24px;
+    left: 45%;
+    top: 128px;
+
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+}
+.input-part{
+    position: absolute;
+    margin: 233px 72.5px 283px 150px;
+    
+}
+.input-text{
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 2px solid #A4A4A4;
+    width: 250px;
+    padding: 8px;
+}
+.input-password{
+    border: none;
+    border-bottom: 2px solid #A4A4A4;
+    width: 250px;
+    padding: 8px;
+}
+.login-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 404px 211px 120px 261px;
+    
+}
+.login-btnn{
+    position: absolute;
+    padding: 15px 20px;
+    gap: 10px;
+    padding: 10px;
+    width: 154px;
+    height: 49px;
+    border-radius: 15px;
+    border: none;background-color: #1678CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inner';
+    font-style: normal;
+    font-weight: 800;
+    cursor: pointer;
+    
+
+}
+.sign-btn{
+    margin-left: 170px;
+    font-family: 'inner';
+    font-weight: 400;
+}
+.sign-btn button{
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: white;
+    cursor: pointer;
+    color: #1678CB;
+    text-decoration-line: underline;
+
+}
