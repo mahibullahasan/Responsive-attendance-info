@@ -4,6 +4,7 @@
     height: 60;
     left: 56px;
     top: 49px;
+    
 }
 .attend-info{
     position: absolute;
@@ -16,5 +17,6 @@
     border: 1px solid red;
     background-color: #1678CB;
     color: white;
+    cursor: pointer;
     
 }

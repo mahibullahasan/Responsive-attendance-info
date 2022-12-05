@@ -5,6 +5,9 @@ import "./Signuppg1.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
 
+
+
+
 const Signuppg1 = () => {
     return (
         <div>
@@ -25,12 +28,18 @@ const Signuppg1 = () => {
                     <br />
                 </div>
                 <div className='next-btn'>
-                    <button className='next-btnn'>Next Step <FontAwesomeIcon icon={faArrowRight} /></button>
-                    
+                
+                <button 
+                    className='next-btnn'>Next Step<FontAwesomeIcon icon={faArrowRight} />
+                </button> 
+                
+                
+                   
                 </div>
+
                 <div className='loginn-btn'>
                     <small>Already here an account?</small> 
-                    <button>LOGIN HERE!</button>
+                    <button><a href="login-here">LOGIN HERE!</a></button>
                 </div>
 
             </div>

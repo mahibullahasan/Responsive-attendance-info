@@ -8,7 +8,7 @@ import 'react-phone-number-input/style.css'
 import PhoneInput   from 'react-phone-number-input'
 
 
-const Signuppg2 = () => {
+    const Signuppg2 = () => {
     const [value, setValue] = useState()
     return (
         <div>
@@ -23,7 +23,11 @@ const Signuppg2 = () => {
                     <h1 className='signup-title'>SignUp Form</h1>
                 </div>
                 <div className='input-part'>
-                    <PhoneInput placeholder="Enter phone number"value={value}onChange={setValue}/>
+                <PhoneInput
+                    international
+                    countryCallingCodeEditable={false}
+                    value={value}
+                    onChange={setValue}/>
                     <br />
                     <input type="email" placeholder='Write Email Address' className='input-text'/>
                     <br />
@@ -35,7 +39,7 @@ const Signuppg2 = () => {
                 
                 <div className='next-btn'>
                 
-                    <button className='next-btnn'>Next Step <FontAwesomeIcon icon={faArrowRight} /></button>
+                    <button className='next-btnn'><a href="next-step2">Next Step</a><FontAwesomeIcon icon={faArrowRight} /></button>
                     
                 </div>
                 <div className='loginn-btn'>

@@ -8,14 +8,17 @@ import Attendance from './components/Attendance/Attendance';
 
 
 
+
 function App() {
   return (
     <div>
+       <Signuppg1></Signuppg1>
+
+       
       
-      
-      <Attendance></Attendance>
-      
-      
+
+
+
     </div>
   );
 }
