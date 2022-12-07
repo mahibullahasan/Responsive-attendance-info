@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Login from './components/Login/Login';
@@ -12,12 +13,7 @@ import Attendance from './components/Attendance/Attendance';
 function App() {
   return (
     <div>
-       <Signuppg1></Signuppg1>
-
-       
-      
-
-
+      <Signuppg1></Signuppg1>
 
     </div>
   );

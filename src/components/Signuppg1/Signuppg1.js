@@ -27,19 +27,16 @@ const Signuppg1 = () => {
                     <input type="text" placeholder='Enter last name' className='input-text'/>
                     <br />
                 </div>
+
                 <div className='next-btn'>
-                
-                <button 
-                    className='next-btnn'>Next Step<FontAwesomeIcon icon={faArrowRight} />
-                </button> 
-                
-                
-                   
+                    <button 
+                        className='next-btnn'>Next Step<FontAwesomeIcon icon={faArrowRight} />
+                    </button>    
                 </div>
 
                 <div className='loginn-btn'>
                     <small>Already here an account?</small> 
-                    <button><a href="login-here">LOGIN HERE!</a></button>
+                    <button><a href="/login-here">LOGIN HERE!</a></button>
                 </div>
 
             </div>
